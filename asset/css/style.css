@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+nav li {
+  margin-right: 20px;
+}
+nav li a {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../foto/Jumbotron.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.hero h1 {
+  font-family: "K2D", sans-serif;
+  color: whitesmoke;
+  margin-top: 250px;
+}
+.hero p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+}
+.button {
+  text-align: center;
+  background-color: #82cd47;
+  padding: 10px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+.button:hover {
+  color: crimson;
+}
+
+.rent {
+  width: 100%;
+  background-image: url("../foto/rent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.head {
+  font-family: "K2D", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+.head img {
+  width: 120px;
+  height: 65px;
+  background-color: dar;
+}
+
+.destination {
+  height: 100%;
+  background-color: #273036;
+  color: whitesmoke;
+  font-family: "K2D", sans-serif;
+  overflow: hidden;
+}
+#title {
+  font-family: "K2D", sans-serif;
+  color: black;
+  font-weight: 800;
+}
+#para {
+  color: black;
+  font-family: "K2D", sans-serif;
+}
+.contact {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../foto/contact.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.contact h1 {
+  color: white;
+  background-color: darkgreen;
+  opacity: 90%;
+  border-radius: 20px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-family: "K2D", sans-serif;
+}
+.contact h3 {
+  width: 200px;
+  margin: auto;
+  opacity: 90%;
+  color: white;
+  text-align: center;
+  background-color: darkgreen;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: wheat;
+  width: 100%;
+  height: 80px;
+}
+
+.destinasi {
+  width: 100%;
+  background-image: url("../foto/destinasi.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.destinasi h1 {
+  font-family: "K2D", sans-serif;
+  color: whitesmoke;
+  margin-top: 250px;
+}
+.destinasi p {
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#row-login {
+  background-color: darkgray;
+  border-radius: 30px;
+}
+#img-login {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.btn1 {
+  background-color: black;
+  border-radius: 5px;
+}
+.a-login {
+  text-decoration: none;
+  color: whitesmoke;
+}
